@@ -1,9 +1,16 @@
 <template>
-	<section>skjdfkjsdkjf</section>
+	<section>
+		<main />
+	</section>
 </template>
 
 <script>
-export default {}
+import Main from './home/Main.vue';
+export default {
+	components: {
+		Main
+	},
+}
 </script>
 
 <style></style>
