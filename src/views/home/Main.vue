@@ -18,10 +18,93 @@
               </b-input-group>
             </div>
           </form>
+          <a href="#" class="badge badge-primary">Usar minha localização <b-icon icon="geo-alt"></b-icon></a>
         </div>
       </div>
     </div>
   </header>
+  <!-- About section-->
+  <section class="page-section bg-primary pt-5 pb-5" id="about">
+      <div class="container">
+          <div class="row justify-content-center">
+              <div class="col-lg-8 text-center">
+                  <h2 class="text-white mt-0">Faça seu cadastro gratuitamente!</h2>
+                  <hr class="divider light my-4" />
+                  <p class="text-white-50 mb-4">Cadastre-se de forma gratuita e comece a gerenciar suas vendas online. É rápido fácil e o melhor, totalmente gratuito!</p>
+                  <ul class="text-white text-left">
+                    <li>Sem Taxa de Adesão</li>
+                    <li>Sem Mensalidade</li>
+                    <li>Sem Taxa por Venda</li>
+                    <li>Sem Limite de Pedidos</li>
+                    <li>Sem Limite de Acessos</li>
+                    <li>Sem Taxa de Hospedagem</li>
+                  </ul>
+                  <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Quero me Cadastrar!</a>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- Icons Grid -->
+  <section class="features-icons bg-light text-center">
+    <div class="container">
+      <h1 class="pb-4">Como Funciona</h1>
+      <div class="row">
+        <div class="col-lg-3" v-for="(card, index) in cards" :key="index">
+          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              <b-icon :icon="card.icon" class="m-auto text-primary" scale="5"></b-icon>
+            </div>
+            <h3>{{card.title}}</h3>
+            <p class="lead mb-0">{{card.description}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials text-center bg-gray pt-4" id="equipe">
+    <div class="container">
+      <h2 class="mb-5">Time 20</h2>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="../../assets/img/igor.svg" alt="">
+            <h5>Igor Galdino</h5>
+            <p class="font-weight-light mb-0">Desenvolvedor Frontend</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="../../assets/img/luan.svg" alt="">
+            <h5>Luan Douglas</h5>
+            <p class="font-weight-light mb-0">Desenvolvedor Mobile</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="../../assets/img/marcos.svg" alt="">
+            <h5>Marcos Ântonio</h5>
+            <p class="font-weight-light mb-0">Desenvolvedor Fullstack</p>
+          </div>
+        </div>
+        <div class="col-lg-2 pt-3"></div>
+        <div class="col-lg-4 pt-3">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="../../assets/img/matheus.svg" alt="">
+            <h5>Matheus Gurgel</h5>
+            <p class="font-weight-light mb-0">Desenvolvedor Fullstack</p>
+          </div>
+        </div>
+        <div class="col-lg-4 pt-3">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="../../assets/img/werlesson.svg" alt="">
+            <h5>Werlesson</h5>
+            <p class="font-weight-light mb-0">Desenvolvedor Frontend</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </div>
 </template>
 
@@ -29,6 +112,29 @@
 export default {
   data() {
     return {
+      cards: [
+        {
+          icon: "laptop",
+          title: "Cadastre seu Negócio",
+          description:
+            "Cadastre-se gratuitamente e sem nenhum custo como vendedor"
+        },
+        {
+          icon: "search",
+          title: "Seja Encontrato Por Seus Clientes",
+          description: "Disponibilize suas informações de contato e produtos"
+        },
+        {
+          icon: "eye",
+          title: "Ganhe Visibilidade",
+          description: "Seu negócio visível para todos com 1 clique"
+        },
+        {
+          icon: "bag",
+          title: "Venda",
+          description: "Receba pedidos e feche negócio dentro da plataforma"
+        }
+      ]
     };
   },
 
@@ -38,12 +144,6 @@ export default {
 </script>
 
 <style lang="css" scoped>
-/*!
- * Start Bootstrap - Landing Page v5.0.7 (https://startbootstrap.com/template-overviews/landing-page)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
- */
-
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -133,7 +233,7 @@ header.masthead h1 {
 }
 
 .testimonials .testimonial-item {
-  max-width: 18rem;
+  max-width: 12rem;
 }
 
 .testimonials .testimonial-item img {
@@ -158,6 +258,10 @@ header.masthead h1 {
   top: 0;
   left: 0;
   opacity: 0.3;
+}
+
+.bg-gray {
+  background-color: #f0eeee;
 }
 
 </style>
