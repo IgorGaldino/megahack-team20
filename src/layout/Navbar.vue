@@ -19,8 +19,8 @@
               <img class="rounded-circle" src="http://placehold.it/40x40" alt />
             </template>
             <b-dropdown-item href="#">Configurar Perfil</b-dropdown-item>
-            <b-dropdown-item href="#">Minha Loja</b-dropdown-item>
-            <b-dropdown-item href="#">Sair</b-dropdown-item>
+            <b-dropdown-item @click="$router.push('/estabelecimento')">Minha Loja</b-dropdown-item>
+            <b-dropdown-item @click="$router.push('/')">Sair</b-dropdown-item>
           </b-nav-item-dropdown>
         </b-navbar-nav>
       </b-collapse>
