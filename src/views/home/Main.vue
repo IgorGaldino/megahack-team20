@@ -15,7 +15,7 @@
                 <template v-slot:append>
                   <b-input-group-text><strong class="text-dark"><b-icon-link @click="$router.push('/estabelecimento')"/></strong></b-input-group-text>
                 </template>
-                <b-form-input @keyup.enter="$router.push('/estabelecimento')"></b-form-input>
+                <b-form-input @keyup.enter="$router.push('/estabelecimento')" placeholder="mercadinho-seu-edu"></b-form-input>
               </b-input-group>
             </div>
           <br/>
