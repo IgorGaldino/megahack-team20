@@ -2,17 +2,15 @@
   <div>
     <b-navbar toggleable="lg" type="dark" variant="primary">
       <router-link to="/">
-        <b-navbar-brand><i class="ti-shopping-cart"></i> <b>Fika</b>Fácil</b-navbar-brand>
+        <b-navbar-brand><i class="ti-shopping-cart"></i> <b>Fika</b>Fácil {{getName()}} </b-navbar-brand>
       </router-link>
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav class="ml-auto">
           <b-nav-form>
-            <router-link to="/novo-estabelecimento">
-              <b-button size="md" class="my-2 mr-3 my-sm-0" variant="btn btn-light">
-                Cadastrar
-              </b-button>
-            </router-link>
+            <b-button href="#cadastrar" size="md" class="my-2 mr-3 my-sm-0" variant="btn btn-light">
+              Cadastrar
+            </b-button>
           </b-nav-form>
           <b-nav-item-dropdown right>
             <template v-slot:button-content>
@@ -33,7 +31,11 @@ export default {
 	data () {
 		return {}
 	},
-	methods: {},
+	methods: {
+		getName () {
+			return this.$route.name == 'Estabelecimento' ? ' / pizzaria-2-irmaos' : ''
+		}
+	},
 	computed: {}
 }
 </script>
