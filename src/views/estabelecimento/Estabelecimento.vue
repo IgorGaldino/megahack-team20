@@ -96,8 +96,8 @@
 											>&#9733; &#9733; &#9733; &#9733; &#9734;</small
 										>
 										<div class="col-md-6 d-flex justify-content-end">
-											<b-button variant="danger">
-												<i class="ti-trash"></i>
+											<b-button class="row" variant="danger">
+												Remover <i class="ti-trash"></i>
 											</b-button>
 										</div>
 									</b-row>
@@ -128,7 +128,7 @@
 										>
 										<div class="col-md-6 d-flex justify-content-end">
 											<b-button class="row" variant="primary">
-												Add
+												Adicionar
 												<i class="ti-shopping-cart"></i>
 											</b-button>
 										</div>
@@ -160,7 +160,7 @@
 										>
 										<div class="col-md-6 d-flex justify-content-end">
 											<b-button class="row" variant="primary">
-												Add
+												Adicionar
 												<i class="ti-shopping-cart"></i>
 											</b-button>
 										</div>
@@ -186,16 +186,13 @@
 									<h5>R$27.99</h5>
 								</div>
 								<div class="card-footer">
-									<b-row
-										class="d-flex justify-content-center align-items-center align-self-center"
-									>
+									<b-row>
 										<small class="col-md-6 text-muted"
 											>&#9733; &#9733; &#9733; &#9733; &#9734;</small
 										>
 										<div class="col-md-6 d-flex justify-content-end">
-											<b-button class="row" variant="primary">
-												Add
-												<i class="ti-shopping-cart"></i>
+											<b-button class="row" variant="danger">
+												Remover <i class="ti-trash"></i>
 											</b-button>
 										</div>
 									</b-row>
@@ -220,13 +217,16 @@
 									<h5>R$19.99</h5>
 								</div>
 								<div class="card-footer">
-									<b-row>
+									<b-row
+										class="d-flex justify-content-center align-items-center align-self-center"
+									>
 										<small class="col-md-6 text-muted"
 											>&#9733; &#9733; &#9733; &#9733; &#9734;</small
 										>
 										<div class="col-md-6 d-flex justify-content-end">
-											<b-button variant="danger">
-												<i class="ti-trash"></i>
+											<b-button class="row" variant="primary">
+												Adicionar
+												<i class="ti-shopping-cart"></i>
 											</b-button>
 										</div>
 									</b-row>
@@ -256,8 +256,8 @@
 											>&#9733; &#9733; &#9733; &#9733; &#9734;</small
 										>
 										<div class="col-md-6 d-flex justify-content-end">
-											<b-button variant="danger">
-												<i class="ti-trash"></i>
+											<b-button class="row" variant="danger">
+												Remover <i class="ti-trash"></i>
 											</b-button>
 										</div>
 									</b-row>
