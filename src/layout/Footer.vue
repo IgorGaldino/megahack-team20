@@ -27,17 +27,17 @@
           <ul class="list-inline mb-0">
             <li class="list-inline-item mr-3">
               <a href="#">
-                <i class="fab fa-facebook fa-2x fa-fw"></i>
+                <img src="../assets/icons/facebook.svg" width="30px" alt="">
               </a>
             </li>
             <li class="list-inline-item mr-3">
-              <a href="#">
-                <i class="fab fa-twitter-square fa-2x fa-fw"></i>
+               <a href="#">
+                <img src="../assets/icons/instagram-2.svg" width="30px" alt="">
               </a>
             </li>
             <li class="list-inline-item">
               <a href="#">
-                <i class="fab fa-instagram fa-2x fa-fw"></i>
+                <img src="../assets/icons/twitter.svg" width="30px" alt="">
               </a>
             </li>
           </ul>
