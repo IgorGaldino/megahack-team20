@@ -45,6 +45,13 @@
 							<span class="badge badge-primary badge-pill">4</span>
 						</li>
 					</ul>
+					<b-button
+						@click="$router.push('/checarPedido')"
+						variant="primary"
+						class="mt-4 col-md-12"
+					>
+						Finalizar pedido
+					</b-button>
 				</div>
 				<!-- /.col-lg-3 -->
 
@@ -82,10 +89,18 @@
 									</h5>
 									<h5>R$27.99</h5>
 								</div>
+
 								<div class="card-footer">
-									<small class="text-muted"
-										>&#9733; &#9733; &#9733; &#9733; &#9734;</small
-									>
+									<b-row>
+										<small class="col-md-6 text-muted"
+											>&#9733; &#9733; &#9733; &#9733; &#9734;</small
+										>
+										<div class="col-md-6 d-flex justify-content-end">
+											<b-button variant="danger">
+												<i class="ti-trash"></i>
+											</b-button>
+										</div>
+									</b-row>
 								</div>
 							</div>
 						</div>
@@ -107,9 +122,17 @@
 									<h5>R$22.98</h5>
 								</div>
 								<div class="card-footer">
-									<small class="text-muted"
-										>&#9733; &#9733; &#9733; &#9733; &#9734;</small
-									>
+									<b-row>
+										<small class="col-md-6 text-muted"
+											>&#9733; &#9733; &#9733; &#9733; &#9734;</small
+										>
+										<div class="col-md-6 d-flex justify-content-end">
+											<b-button class="row" variant="primary">
+												Add
+												<i class="ti-shopping-cart"></i>
+											</b-button>
+										</div>
+									</b-row>
 								</div>
 							</div>
 						</div>
@@ -131,9 +154,17 @@
 									<h5>R$24.99</h5>
 								</div>
 								<div class="card-footer">
-									<small class="text-muted"
-										>&#9733; &#9733; &#9733; &#9733; &#9734;</small
-									>
+									<b-row>
+										<small class="col-md-6 text-muted"
+											>&#9733; &#9733; &#9733; &#9733; &#9734;</small
+										>
+										<div class="col-md-6 d-flex justify-content-end">
+											<b-button class="row" variant="primary">
+												Add
+												<i class="ti-shopping-cart"></i>
+											</b-button>
+										</div>
+									</b-row>
 								</div>
 							</div>
 						</div>
@@ -155,9 +186,19 @@
 									<h5>R$27.99</h5>
 								</div>
 								<div class="card-footer">
-									<small class="text-muted"
-										>&#9733; &#9733; &#9733; &#9733; &#9734;</small
+									<b-row
+										class="d-flex justify-content-center align-items-center align-self-center"
 									>
+										<small class="col-md-6 text-muted"
+											>&#9733; &#9733; &#9733; &#9733; &#9734;</small
+										>
+										<div class="col-md-6 d-flex justify-content-end">
+											<b-button class="row" variant="primary">
+												Add
+												<i class="ti-shopping-cart"></i>
+											</b-button>
+										</div>
+									</b-row>
 								</div>
 							</div>
 						</div>
@@ -179,9 +220,16 @@
 									<h5>R$19.99</h5>
 								</div>
 								<div class="card-footer">
-									<small class="text-muted"
-										>&#9733; &#9733; &#9733; &#9733; &#9734;</small
-									>
+									<b-row>
+										<small class="col-md-6 text-muted"
+											>&#9733; &#9733; &#9733; &#9733; &#9734;</small
+										>
+										<div class="col-md-6 d-flex justify-content-end">
+											<b-button variant="danger">
+												<i class="ti-trash"></i>
+											</b-button>
+										</div>
+									</b-row>
 								</div>
 							</div>
 						</div>
@@ -203,9 +251,16 @@
 									<h5>R$24.99</h5>
 								</div>
 								<div class="card-footer">
-									<small class="text-muted"
-										>&#9733; &#9733; &#9733; &#9733; &#9734;</small
-									>
+									<b-row>
+										<small class="col-md-6 text-muted"
+											>&#9733; &#9733; &#9733; &#9733; &#9734;</small
+										>
+										<div class="col-md-6 d-flex justify-content-end">
+											<b-button variant="danger">
+												<i class="ti-trash"></i>
+											</b-button>
+										</div>
+									</b-row>
 								</div>
 							</div>
 						</div>
