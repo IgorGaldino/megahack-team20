@@ -2,7 +2,7 @@
   <div>
     <b-navbar toggleable="lg" type="dark" variant="primary">
       <router-link to="/">
-        <b-navbar-brand>#FikaFácil</b-navbar-brand>
+        <b-navbar-brand><i class="ti-shopping-cart"></i> <b>Fika</b>Fácil</b-navbar-brand>
       </router-link>
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav>
