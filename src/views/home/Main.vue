@@ -1,39 +1,41 @@
 <template>
 	<div>
-		<header class="masthead text-white text-center">
-			<div class="overlay"></div>
-			<div class="container">
-				<div class="row">
-					<div class="col-xl-9 mx-auto">
-						<h3 class="mb-5">
-							Build a landing page for your business or project and generate
-							more leads!
-						</h3>
-					</div>
-					<div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-						<form>
-							<div class="form-row">
-								<b-input-group class="mt-3">
-									<template v-slot:append>
-										<b-input-group-text
-											><strong class="text-dark"
-												><b-icon-search
-													@click="$router.push('/estabelecimento')"/></strong
-										></b-input-group-text>
-									</template>
-									<b-form-input
-										@keyup.enter="$router.push('/estabelecimento')"
-									></b-form-input>
-								</b-input-group>
-							</div>
-						</form>
-						<a href="#" class="badge badge-primary"
-							>Usar minha localização <b-icon icon="geo-alt"></b-icon
-						></a>
-					</div>
-				</div>
-			</div>
-		</header>
+  <header class="masthead text-white text-center">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 mx-auto">
+          <h3 class="mb-5">Encontre Serviços ou Produtos de Forma Fácil!</h3>
+        </div>
+
+        <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+          <h5 class="text-center">Busque por um vendedor</h5>
+            <div class="form-row">
+              <b-input-group>
+                <template v-slot:append>
+                  <b-input-group-text><strong class="text-dark"><b-icon-link @click="$router.push('/estabelecimento')"/></strong></b-input-group-text>
+                </template>
+                <b-form-input @keyup.enter="$router.push('/estabelecimento')"></b-form-input>
+              </b-input-group>
+            </div>
+          <br/>
+        </div>
+
+        <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+          <h5 class="text-center">Ou Busque por Produtos ou Serviços</h5>
+            <div class="form-row">
+              <b-input-group>
+                <template v-slot:append>
+                  <b-input-group-text><strong class="text-dark"><b-icon-search/></strong></b-input-group-text>
+                </template>
+                <b-form-input></b-form-input>
+              </b-input-group>
+            </div>
+          <a href="#" class="badge badge-primary">Usar minha localização <b-icon icon="geo-alt"></b-icon></a>
+        </div>
+      </div>
+    </div>
+  </header>
 		<!-- About section-->
 		<section class="page-section bg-primary pt-5 pb-5" id="about">
 			<div class="container">
@@ -150,37 +152,37 @@
 
 <script>
 export default {
-	data() {
+	data () {
 		return {
 			cards: [
 				{
-					icon: "laptop",
-					title: "Cadastre seu Negócio",
+					icon: 'laptop',
+					title: 'Cadastre seu Negócio',
 					description:
-						"Cadastre-se gratuitamente e sem nenhum custo como vendedor"
+						'Cadastre-se gratuitamente e sem nenhum custo como vendedor'
 				},
 				{
-					icon: "search",
-					title: "Seja Encontrato Por Seus Clientes",
-					description: "Disponibilize suas informações de contato e produtos"
+					icon: 'search',
+					title: 'Seja Encontrato Por Seus Clientes',
+					description: 'Disponibilize suas informações de contato e produtos'
 				},
 				{
-					icon: "eye",
-					title: "Ganhe Visibilidade",
-					description: "Seu negócio visível para todos com 1 clique"
+					icon: 'eye',
+					title: 'Ganhe Visibilidade',
+					description: 'Seu negócio visível para todos com 1 clique'
 				},
 				{
-					icon: "bag",
-					title: "Venda",
-					description: "Receba pedidos e feche negócio dentro da plataforma"
+					icon: 'bag',
+					title: 'Venda',
+					description: 'Receba pedidos e feche negócio dentro da plataforma'
 				}
 			]
-		};
+		}
 	},
 
-	created() {},
+	created () {},
 	methods: {}
-};
+}
 </script>
 
 <style lang="css" scoped>
