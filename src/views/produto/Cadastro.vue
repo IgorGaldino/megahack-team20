@@ -52,7 +52,12 @@
 			</b-card>
 			<div class="row d-flex justify-content-end">
 				<div class="d-flex justify-content-end col-md-6">
-					<b-button class="mt-3" variant="primary" slot="finish">
+					<b-button
+						@click="$router.push('/estabelecimento')"
+						class="mt-3"
+						variant="primary"
+						slot="finish"
+					>
 						Salvar
 					</b-button>
 				</div>
