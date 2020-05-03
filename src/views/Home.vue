@@ -5,11 +5,11 @@
 </template>
 
 <script>
-import MainHomepage from "./home/Main.vue";
+import MainHomepage from './home/Main.vue'
 export default {
 	components: {
 		MainHomepage
-	},
+	}
 }
 </script>
 
