@@ -107,6 +107,7 @@
               >
                 <b-form-input
                   id="input-4"
+                  v-mask="'######-###'"
                   v-model="estabelecimento.endereco.cep"
                 />
               </b-form-group>
@@ -167,7 +168,7 @@
             >
               <b-form-input
                 id="input-9"
-                v-model="estabelecimento.endereco.cidade"
+                v-model="estabelecimento.endereco.complemento"
               />
             </b-form-group>
           </div>
@@ -195,25 +196,6 @@
                   v-mask="['(##) ####-####', '(##) #####-####']"
                   placeholder="(99) 99999-9999"
                 ></b-form-input>
-                <div
-                  class="d-flex justify-content-center align-items-center ml-1"
-                  style="background: #e9ecef; padding: 5px; border: 0.5px solid #ced4da; border-radius: 0.25rem; height: 40px;"
-                >
-                  <b-form-checkbox
-                    v-model="estabelecimento.telefones[index].is_whatsapp"
-                    class="ml-2 align-self-start"
-                    switch
-                  >
-                    <unicon
-                      name="whatsapp"
-                      :fill="
-                        estabelecimento.telefones[index].is_whatsapp
-                          ? 'green'
-                          : '#6c757d66'
-                      "
-                    />
-                  </b-form-checkbox>
-                </div>
                 <b-button
                   class="ml-1"
                   variant="outline-secondary"

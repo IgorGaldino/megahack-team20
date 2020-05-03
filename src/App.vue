@@ -8,4 +8,7 @@
 export default {}
 </script>
 
-<style></style>
+<style>
+	/* Import themify-icons */
+	@import 'https://rawgit.com/lykmapipo/themify-icons/master/css/themify-icons.css'
+</style>
