@@ -3,7 +3,10 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3">
-					<img src="http://placehold.it/230x230" class="mt-4 rounded-circle" />
+					<img
+						src="https://store.playstation.com/store/api/chihiro/00_09_000/container/BR/pt/999/UP2477-CUSA06694_00-AV00000000000121/1553251072000/image?w=240&h=240&bg_color=000000&opacity=100&_version=00_09_000"
+						class="mt-4 rounded-circle"
+					/>
 					<h3 class="my-4">Pizzaria 2 Irmãos</h3>
 					<ul class="list-group">
 						<li
@@ -11,7 +14,7 @@
 							class="list-group-item d-flex justify-content-between align-items-center"
 						>
 							Pizza
-							<span class="badge badge-primary badge-pill">14</span>
+							<span class="badge badge-primary badge-pill">6</span>
 						</li>
 						<li
 							type="button"
@@ -51,58 +54,15 @@
 						class="carousel slide my-4"
 						data-ride="carousel"
 					>
-						<ol class="carousel-indicators">
-							<li
-								data-target="#carouselExampleIndicators"
-								data-slide-to="0"
-								class="active"
-							></li>
-							<li
-								data-target="#carouselExampleIndicators"
-								data-slide-to="1"
-							></li>
-							<li
-								data-target="#carouselExampleIndicators"
-								data-slide-to="2"
-							></li>
-						</ol>
 						<div class="carousel-inner" role="listbox">
 							<div class="carousel-item active">
 								<img
 									class="d-block img-fluid"
-									src="http://placehold.it/900x350"
+									src="https://popidi.com/wp-content/uploads/2018/02/banner2-base.jpg"
 									alt="First slide"
 								/>
 							</div>
-							<div class="carousel-item">
-								<img
-									class="d-block img-fluid"
-									src="http://placehold.it/900x350"
-									alt="Second slide"
-								/>
-							</div>
-							<div class="carousel-item">
-								<img
-									class="d-block img-fluid"
-									src="http://placehold.it/900x350"
-									alt="Third slide"
-								/>
-							</div>
 						</div>
-						<a class="carousel-control-prev" role="button" data-slide="prev">
-							<span
-								class="carousel-control-prev-icon"
-								aria-hidden="true"
-							></span>
-							<span class="sr-only">Previous</span>
-						</a>
-						<a class="carousel-control-next" role="button" data-slide="next">
-							<span
-								class="carousel-control-next-icon"
-								aria-hidden="true"
-							></span>
-							<span class="sr-only">Next</span>
-						</a>
 					</div>
 
 					<div class="row">
@@ -111,7 +71,9 @@
 								<a
 									><img
 										class="card-img-top"
-										src="http://placehold.it/700x400"
+										height="250px"
+										width="400px"
+										src="https://t1.rg.ltmcdn.com/pt/images/9/8/3/img_pizza_calabresa_e_mussarela_4389_600_square.jpg"
 										alt=""
 								/></a>
 								<div class="card-body">
@@ -133,7 +95,9 @@
 								<a
 									><img
 										class="card-img-top"
-										src="http://placehold.it/700x400"
+										height="250px"
+										width="400px"
+										src="https://www.anamariabrogui.com.br/assets/uploads/receitas/fotos/usuario-1932-5a1b7911dfda6e3c351c30de564da267.jpg"
 										alt=""
 								/></a>
 								<div class="card-body">
@@ -155,7 +119,9 @@
 								<a
 									><img
 										class="card-img-top"
-										src="http://placehold.it/700x400"
+										height="250px"
+										width="400px"
+										src="https://media-cdn.tripadvisor.com/media/photo-s/0f/07/37/12/pizza-marguerita-mussarela.jpg"
 										alt=""
 								/></a>
 								<div class="card-body">
@@ -177,7 +143,9 @@
 								<a
 									><img
 										class="card-img-top"
-										src="http://placehold.it/700x400"
+										height="250px"
+										width="400px"
+										src="https://www.picanhacia.com.br/wp-content/uploads/2017/01/11379225_1180312101994735_933388139_n-13-510x320.jpg"
 										alt=""
 								/></a>
 								<div class="card-body">
@@ -199,7 +167,9 @@
 								<a
 									><img
 										class="card-img-top"
-										src="http://placehold.it/700x400"
+										height="250px"
+										width="400px"
+										src="https://www.duartelima.com.br/wp-content/uploads/2017/07/pizza-mista_thumb.jpg"
 										alt=""
 								/></a>
 								<div class="card-body">
@@ -221,7 +191,9 @@
 								<a
 									><img
 										class="card-img-top"
-										src="http://placehold.it/700x400"
+										height="250px"
+										width="400px"
+										src="https://cdnv2.moovin.com.br/bpnutrition/imagens/produtos/det/pizza-de-frango-com-catupiry-500g-mama-gusto-imagem-ilustrativa-95263b8065962b619fb577e286e192cc.jpg"
 										alt=""
 								/></a>
 								<div class="card-body">
