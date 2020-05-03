@@ -83,7 +83,7 @@
 							<router-link to="/novo-cliente">
 								<b-button class="mr-2" variant="light">Cliente</b-button>
 							</router-link>
-							<router-link to="/novo-fikafacil">
+							<router-link to="/novo-estabelecimento">
 								<b-button variant="light">Comerciante</b-button>
 							</router-link>
 						</b-form-group>
