@@ -68,18 +68,18 @@
 
 <script>
 export default {
-	data() {
+	data () {
 		return {
 			categorias: [
-				"Pizza",
-				"Hamburguer",
-				"Salgados",
-				"Bebidas Quentes",
-				"Bebidas Geladas"
+				'Pizza',
+				'Hamburguer',
+				'Salgados',
+				'Bebidas Quentes',
+				'Bebidas Geladas'
 			]
-		};
+		}
 	}
-};
+}
 </script>
 
 <style></style>
