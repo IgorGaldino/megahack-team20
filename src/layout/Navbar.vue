@@ -6,15 +6,20 @@
       </router-link>
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav>
+        <b-navbar-nav>
+        <b-nav-item href="#/home"><span class="item-menu">Início</span></b-nav-item>
+        <b-nav-item href="#cadastrar"><span class="item-menu">Cadastro</span></b-nav-item>
+      </b-navbar-nav>
+
         <b-navbar-nav class="ml-auto">
-          <b-nav-form>
+          <!-- <b-nav-form>
             <b-button href="#cadastrar" size="md" class="my-2 mr-3 my-sm-0" variant="btn btn-light">
               Cadastrar
             </b-button>
-          </b-nav-form>
+          </b-nav-form> -->
           <b-nav-item-dropdown right>
             <template v-slot:button-content>
-              <img class="rounded-circle" src="http://placehold.it/40x40" alt />
+              <img class="rounded-circle" src="@/assets/img/user.png" width="40" height="40" alt />
             </template>
             <b-dropdown-item href="#">Configurar Perfil</b-dropdown-item>
             <b-dropdown-item @click="$router.push('/estabelecimento')">Minha Loja</b-dropdown-item>
@@ -44,6 +49,16 @@ export default {
 span {
   color: #fff;
 }
+
+.item-menu {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.item-menu:hover {
+  background-color: #00000036;
+}
+
 @media (max-width: 480px) {
   .fontImage {
     display: none;
