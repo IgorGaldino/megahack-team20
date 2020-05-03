@@ -6,12 +6,13 @@
       </router-link>
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav>
-        <b-navbar-nav>
-        <b-nav-item href="#/home"><span class="item-menu">Início</span></b-nav-item>
-        <b-nav-item href="#cadastrar"><span class="item-menu">Cadastro</span></b-nav-item>
-      </b-navbar-nav>
+        <!-- <b-navbar-nav class="ml-auto">
+          
+        </b-navbar-nav> -->
 
         <b-navbar-nav class="ml-auto">
+          <b-nav-item href="#/home" class="item-menu"><span>Início</span></b-nav-item>
+          <b-nav-item href="#cadastrar" class="item-menu"><span>Cadastro</span></b-nav-item>
           <!-- <b-nav-form>
             <b-button href="#cadastrar" size="md" class="my-2 mr-3 my-sm-0" variant="btn btn-light">
               Cadastrar
@@ -53,6 +54,7 @@ span {
 .item-menu {
   padding: 10px;
   border-radius: 5px;
+  color: white;
 }
 
 .item-menu:hover {
