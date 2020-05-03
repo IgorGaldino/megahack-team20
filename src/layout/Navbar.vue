@@ -3,7 +3,7 @@
         <b-button>asd</b-button>
 		<b-navbar fixed="top" toggleable="lg" type="dark" variant="primary">
 			<router-link to="/">
-				
+
 				<!-- <img src="@/assets/logo.svg" alt="Minha Figura" />
 				<img class="fontImage" src="@/assets/font.svg" alt="Minha Figura" /> -->
 			</router-link>
