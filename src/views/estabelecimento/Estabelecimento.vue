@@ -198,9 +198,9 @@
 								/></a>
 								<div class="card-body">
 									<h5 class="card-title">
-										<a>Pizza Franco Catupiry</a>
+										<a>Pizza Frango Catupiry</a>
 									</h5>
-									<h5>$24.99</h5>
+									<h5>R$24.99</h5>
 								</div>
 								<div class="card-footer">
 									<small class="text-muted"
