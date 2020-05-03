@@ -21,7 +21,7 @@
                 </template>
                 <b-form-input
                   @keyup.enter="$router.push('/estabelecimento')"
-                  placeholder="mercadinho-seu-edu"
+                  placeholder="pizzaria-2-irmaos"
                 />
               </b-input-group>
             </div>

@@ -27,6 +27,11 @@ const routes = [
 				component: () => import('../views/estabelecimento/Estabelecimento.vue')
 			},
 			{
+				path: "checarPedido",
+				name: "ChecarPedido",
+				component: () => import("../views/estabelecimento/Checkout.vue")
+			},
+			{
 				path: 'novo-produto',
 				name: 'Cadastro de Produto',
 				component: () => import('../views/produto/Cadastro.vue')
