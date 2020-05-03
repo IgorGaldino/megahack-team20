@@ -7,15 +7,19 @@
 				<router-view></router-view>
 			</transition>
 		</div>
+
+		<my-footer />
 	</div>
 </template>
 
 <script>
 import Navbar from './Navbar'
+import MyFooter from './Footer'
 
 export default {
 	components: {
-		Navbar
+		Navbar,
+		MyFooter
 	}
 }
 </script>
