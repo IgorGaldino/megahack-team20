@@ -1,14 +1,14 @@
 <template>
 	<section>
-		<main />
+		<main-homepage />
 	</section>
 </template>
 
 <script>
-import Main from './home/Main.vue';
+import MainHomepage from "./home/Main.vue";
 export default {
 	components: {
-		Main
+		MainHomepage
 	},
 }
 </script>

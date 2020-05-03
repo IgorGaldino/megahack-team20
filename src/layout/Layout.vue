@@ -26,7 +26,7 @@ export default {
 	display: block
 }
 .layout-content {
-    margin: 21px 0 0 0;
+    margin: 0px 0 0 0;
 }
 .moveUp-enter-active {
 	animation: fadeIn 1s ease-in;
