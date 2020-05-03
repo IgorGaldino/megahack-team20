@@ -1,5 +1,5 @@
 <template>
-  <div class="container col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-5">
+  <div class="container col-xl-5 col-lg-6 col-md-6 col-sm-12 mb-5">
     <form-wizard
       @on-complete="save"
       shape="circle"
