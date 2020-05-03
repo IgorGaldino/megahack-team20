@@ -23,16 +23,11 @@ export default {
 .layout {
 	width: 100%;
 	height: 100%;
-	display: flex;
+	display: block
 }
 .layout-content {
-    z-index: 1000;
-    overflow-y: auto;
-    overflow-x: hidden;
-    flex-direction: row;
-    flex: 1;
-    margin: 96px 10px 0 10px;
-  }
+    margin: 21px 0 0 0;
+}
 .moveUp-enter-active {
 	animation: fadeIn 1s ease-in;
 }
