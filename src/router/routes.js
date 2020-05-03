@@ -1,32 +1,32 @@
-import Layout from '../layout/Layout.vue'
+import Layout from "../layout/Layout.vue";
 
 const routes = [
 	{
-		path: '/',
+		path: "/",
 		component: Layout,
-		redirect: '/home',
+		redirect: "/home",
 		children: [
 			{
-				path: 'home',
-				name: 'Home',
-				component: () => import('../views/Home.vue')
+				path: "home",
+				name: "Home",
+				component: () => import("../views/Home.vue")
 			},
 			{
-				path: 'novo-estabelecimento',
-				name: 'Cadastro',
-				component: () => import('../views/estabelecimento/Cadastro.vue')
+				path: "novo-estabelecimento",
+				name: "Cadastro",
+				component: () => import("../views/estabelecimento/Cadastro.vue")
 			},
 			{
-				path: 'produtos',
-				name: 'Produtos',
-				component: () => import('../views/product/Produto.vue')
+				path: "estabelecimento",
+				name: "Estabelecimento",
+				component: () => import("../views/estabelecimento/Estabelecimento.vue")
 			}
 		]
 	},
 	{
-		path: '*',
-		redirect: '/'
+		path: "*",
+		redirect: "/"
 	}
-]
+];
 
-export default routes
+export default routes;
