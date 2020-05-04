@@ -56,18 +56,32 @@
 					<div class="col-lg-8 text-center">
 						<h2 class="text-white mt-0">Faça seu cadastro gratuitamente!</h2>
 						<hr class="divider light my-4" />
-						<p class="text-white-50 mb-4">
+						<p class="text-white mb-4">
 							Cadastre-se de forma gratuita e comece a gerenciar suas vendas
 							online. É rápido, fácil e o melhor, totalmente gratuito!
 						</p>
-						<ul class="text-white text-left">
-							<li>Sem Taxa de Adesão</li>
-							<li>Sem Mensalidade</li>
-							<li>Sem Taxa por Venda</li>
-							<li>Sem Limite de Pedidos</li>
-							<li>Sem Limite de Acessos</li>
-							<li>Sem Taxa de Hospedagem</li>
-						</ul>
+						<div class="row">
+							<div class="col-md-6">
+								<h3 class="text-left text-white">Para o Vendedor</h3>
+								<ul class="text-white text-left">
+								<li>Sem Taxa de Adesão</li>
+								<li>Sem Mensalidade</li>
+								<li>Sem Taxa por Venda</li>
+								<li>Sem Limite de Pedidos</li>
+								<li>Sem Limite de Acessos</li>
+								<li>Sem Taxa de Hospedagem</li>
+							</ul>
+							</div>
+							<div class="col-md-6">
+								<h3 class="text-left text-white">Para o Cliente</h3>
+								<ul class="text-white text-left">
+									<li>informações centralizadas de diversos vendedores e produtos</li>
+									<li>Peça diretamente pela plataforma</li>
+									<li>Negocie diretamente com o vendedor</li>
+									<li>Filtros personalizados para agilizar e tornar mais eficiente sua busca</li>
+								</ul>
+							</div>
+						</div>
 						<b-form-group
 							class="col-md-12 text-white"
 							label="Quero me Cadastrar!"
