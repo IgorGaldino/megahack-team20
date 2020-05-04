@@ -2,8 +2,8 @@
 	<div>
 		<b-navbar toggleable="lg" type="dark" variant="primary">
 			<router-link to="/">
-				<b-navbar-brand
-					><i class="ti-shopping-cart"></i> <b>Fika</b>Fácil {{ getName() }}
+				<b-navbar-brand>
+					<img src="@/assets/icons/logo.svg" width="30" height="30" class="logo" /><b>Fika</b>Fácil {{ getName() }}
 				</b-navbar-brand>
 			</router-link>
 			<b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -87,6 +87,11 @@ span {
 
 .item-menu:hover {
 	background-color: #00000036;
+}
+
+.logo {
+	margin-bottom: 4px;
+  margin-right: 5px;
 }
 
 @media (max-width: 480px) {
