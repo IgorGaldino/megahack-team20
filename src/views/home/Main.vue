@@ -21,7 +21,6 @@
 								</template>
 								<b-form-input
 									@keyup.enter="route()"
-									placeholder="pizzaria-2-irmaos"
 								/>
 							</b-input-group>
 						</div>
@@ -141,7 +140,7 @@
 								src="../../assets/img/marcos.svg"
 								alt
 							/>
-							<h5>Marcos Ântonio</h5>
+							<h5>Marcos Antônio</h5>
 							<p class="font-weight-light mb-0">Desenvolvedor Fullstack</p>
 						</div>
 					</div>

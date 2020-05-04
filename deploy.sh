@@ -1,3 +1,6 @@
+# abort on errors
+set -e
+
 # build
 npm run build
 
@@ -5,7 +8,7 @@ npm run build
 cd dist
 
 # if you are deploying to a custom domain
-# echo 'www.example.com' > CNAME
+echo 'time20.site' > CNAME
 
 git init
 git add -A
@@ -15,6 +18,5 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:igorgaldino/megahack-team20.git master:gh-pages
-
+git push -f https://github.com/IgorGaldino/megahack-team20.git master:gh-pages
 cd -
