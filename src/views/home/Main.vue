@@ -8,7 +8,7 @@
 						<h3 class="mb-5">Encontre Serviços ou Produtos de Forma Fácil!</h3>
 					</div>
 
-					<div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+					<!-- <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
 						<h5 class="text-center">Busque por um vendedor</h5>
 						<div class="form-row">
 							<b-input-group>
@@ -25,10 +25,10 @@
 							</b-input-group>
 						</div>
 						<br />
-					</div>
+					</div> -->
 
 					<div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-						<h5 class="text-center">Ou Busque por Produtos ou Serviços</h5>
+						<h5 class="text-center">Busque por Vendedores, Produtos ou Serviços</h5>
 						<div class="form-row">
 							<b-input-group>
 								<template v-slot:append>
@@ -58,7 +58,7 @@
 						<hr class="divider light my-4" />
 						<p class="text-white-50 mb-4">
 							Cadastre-se de forma gratuita e comece a gerenciar suas vendas
-							online. É rápido fácil e o melhor, totalmente gratuito!
+							online. É rápido, fácil e o melhor, totalmente gratuito!
 						</p>
 						<ul class="text-white text-left">
 							<li>Sem Taxa de Adesão</li>
