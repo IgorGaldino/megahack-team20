@@ -187,13 +187,13 @@ export default {
 				},
 				{
 					icon: 'search',
-					title: 'Seja Encontrato Por Seus Clientes',
+					title: 'Seja Encontrado Por Seus Clientes',
 					description: 'Disponibilize suas informações de contato e produtos'
 				},
 				{
 					icon: 'eye',
 					title: 'Ganhe Visibilidade',
-					description: 'Seu negócio visível para todos com 1 clique'
+					description: 'Seu negócio visível para todos com 1 click'
 				},
 				{
 					icon: 'bag',
