@@ -36,19 +36,19 @@
 						/>
 					</b-form-group>
 				</div>
-				<div class="custom-file col-md-12">
+				<b-form-group label="Insira uma imagem para seu estabelecimento" class="col-md-12">
 					<div class="custom-file">
-						<input
-							type="file"
-							class="custom-file-input"
-							id="customFileLang"
-							lang="pt"
-						/>
-						<label class="custom-file-label" for="customFileLang">
-							Selecionar arquivo
-						</label>
+					<input
+						type="file"
+						class="custom-file-input"
+						id="customFileLang"
+						lang="pt"
+					/>
+					<label class="custom-file-label" for="customFileLang">
+						Selecione o arquivo
+					</label>
 					</div>
-				</div>
+        </b-form-group>
 			</b-card>
 			<div class="row d-flex justify-content-end">
 				<div class="d-flex justify-content-end col-md-6">
@@ -82,4 +82,8 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+  .custom-file-input:lang(pt) ~ .custom-file-label::after {
+    content: "Procurar";
+  }
+</style>

@@ -12,6 +12,11 @@ const routes = [
 				component: () => import('../views/Home.vue')
 			},
 			{
+				path: 'perfil-vendedor',
+				name: 'Perfil',
+				component: () => import('../views/usuario/PerfilVendedor.vue')
+			},
+			{
 				path: 'novo-cliente',
 				name: 'Cadastro',
 				component: () => import('../views/cliente/Cadastro.vue')

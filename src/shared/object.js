@@ -132,7 +132,7 @@ export default [
 			'https://digital.fispalfoodservice.com.br/sites/fispalfoodservice.com/files/styles/article_featured_retina/public/uploads/2018/11/shutterstock_1055670377.jpg?itok=hLX4oW60',
 		nome: 'Padaria Ferragens',
 		categorias: [
-			{ qty: 4, label: 'Pães`' },
+			{ qty: 4, label: 'Pães' },
 			{ qty: 6, label: 'Café gelado' },
 			{ qty: 6, label: 'Salgados' },
 			{ qty: 7, label: 'Torradas' },

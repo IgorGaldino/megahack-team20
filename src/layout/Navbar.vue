@@ -34,7 +34,7 @@
 								alt
 							/>
 						</template>
-						<b-dropdown-item href="#">Configurar Perfil</b-dropdown-item>
+						<b-dropdown-item @click="$router.push('/perfil-vendedor')">Configurar Perfil</b-dropdown-item>
 						<b-dropdown-item v-if="this.$route.name !== 'Estabelecimento'" @click="route()">Minha Loja</b-dropdown-item>
 						<b-dropdown-item @click="$router.push('/')">Sair</b-dropdown-item>
 					</b-nav-item-dropdown>

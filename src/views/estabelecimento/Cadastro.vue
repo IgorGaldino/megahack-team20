@@ -46,7 +46,7 @@
               />
             </b-form-group>
 
-            <b-form-group label="Permirte Retirada?" class="col-md-6">
+            <b-form-group label="Permite Retirada?" class="col-md-6">
               <b-form-radio-group
                 id="btn-radios-2"
                 v-model="estabelecimento.retirada"
@@ -58,9 +58,9 @@
               />
             </b-form-group>
 
-            <b-form-group label="Método de pagamento" class="col-md-12">
-              <b-form-radio-group
-                id="btn-radios-3"
+            <b-form-group label="Forma de pagamento" class="col-md-12">
+              <b-form-checkbox-group
+                id="btn-checkbox-1"
                 v-model="estabelecimento.metodoPagamento"
                 :options="form.metodoPagamento"
                 button-variant="outline-primary"
@@ -79,7 +79,7 @@
               />
             </b-form-group>
           </div>
-          <div class="custom-file col-md-12">
+          <b-form-group label="Insira uma imagem para seu estabelecimento" class="col-md-12">
             <div class="custom-file">
               <input
                 type="file"
@@ -88,10 +88,10 @@
                 lang="pt"
               />
               <label class="custom-file-label" for="customFileLang">
-                Selecionar arquivo
+                Selecione o arquivo
               </label>
             </div>
-          </div>
+          </b-form-group>
         </b-card>
       </tab-content>
       <!-- Tab2 endereço -->
@@ -319,3 +319,9 @@ export default {
 	}
 }
 </script>
+
+<style>
+  .custom-file-input:lang(pt) ~ .custom-file-label::after {
+    content: "Procurar";
+  }
+</style>
