@@ -15,14 +15,12 @@
 								<template v-slot:append>
 									<b-input-group-text>
 										<strong class="text-dark">
-											<b-icon-link
-												@click="$router.push('/fikafacil/pizzaria-2-irmaos')"
-											/>
+											<b-icon-link @click="route()" />
 										</strong>
 									</b-input-group-text>
 								</template>
 								<b-form-input
-									@keyup.enter="$router.push('/fikafacil/pizzaria-2-irmaos')"
+									@keyup.enter="route()"
 									placeholder="pizzaria-2-irmaos"
 								/>
 							</b-input-group>
@@ -37,15 +35,11 @@
 								<template v-slot:append>
 									<b-input-group-text>
 										<strong class="text-dark">
-											<b-icon-search
-												@click="$router.push('/fikafacil/pizzaria-2-irmaos')"
-											/>
+											<b-icon-search @click="route()" />
 										</strong>
 									</b-input-group-text>
 								</template>
-								<b-form-input
-									@keyup.enter="$router.push('/fikafacil/pizzaria-2-irmaos')"
-								/>
+								<b-form-input @keyup.enter="route()" />
 							</b-input-group>
 						</div>
 						<a href="#" class="badge badge-primary">
@@ -211,7 +205,22 @@ export default {
 	},
 
 	created() {},
-	methods: {}
+	methods: {
+		route() {
+			let aux = Math.floor(Math.random() * (3 - 0)) + 0;
+			switch (aux) {
+				case 0:
+					this.$router.push("/fikafacil/pizzaria-2-irmaos");
+					break;
+				case 1:
+					this.$router.push("/fikafacil/mercadinho-mix");
+					break;
+				case 2:
+					this.$router.push("/fikafacil/padaria-ferragens");
+					break;
+			}
+		}
+	}
 };
 </script>
 
