@@ -176,52 +176,52 @@
 
 <script>
 export default {
-	data() {
+	data () {
 		return {
 			cards: [
 				{
-					icon: "laptop",
-					title: "Cadastre seu Negócio",
+					icon: 'laptop',
+					title: 'Cadastre seu Negócio',
 					description:
-						"Cadastre-se gratuitamente e sem nenhum custo como vendedor"
+						'Cadastre-se gratuitamente e sem nenhum custo como vendedor'
 				},
 				{
-					icon: "search",
-					title: "Seja Encontrato Por Seus Clientes",
-					description: "Disponibilize suas informações de contato e produtos"
+					icon: 'search',
+					title: 'Seja Encontrato Por Seus Clientes',
+					description: 'Disponibilize suas informações de contato e produtos'
 				},
 				{
-					icon: "eye",
-					title: "Ganhe Visibilidade",
-					description: "Seu negócio visível para todos com 1 clique"
+					icon: 'eye',
+					title: 'Ganhe Visibilidade',
+					description: 'Seu negócio visível para todos com 1 clique'
 				},
 				{
-					icon: "bag",
-					title: "Venda",
-					description: "Receba pedidos e feche negócio dentro da plataforma"
+					icon: 'bag',
+					title: 'Venda',
+					description: 'Receba pedidos e feche negócio dentro da plataforma'
 				}
 			]
-		};
+		}
 	},
 
-	created() {},
+	created () {},
 	methods: {
-		route() {
-			let aux = Math.floor(Math.random() * (3 - 0)) + 0;
+		route () {
+			const aux = Math.floor(Math.random() * (3 - 0)) + 0
 			switch (aux) {
-				case 0:
-					this.$router.push("/fikafacil/pizzaria-2-irmaos");
-					break;
-				case 1:
-					this.$router.push("/fikafacil/mercadinho-mix");
-					break;
-				case 2:
-					this.$router.push("/fikafacil/padaria-ferragens");
-					break;
+			case 0:
+				this.$router.push('/fikafacil/pizzaria-2-irmaos')
+				break
+			case 1:
+				this.$router.push('/fikafacil/mercadinho-mix')
+				break
+			case 2:
+				this.$router.push('/fikafacil/padaria-ferragens')
+				break
 			}
 		}
 	}
-};
+}
 </script>
 
 <style lang="css" scoped>
@@ -242,7 +242,7 @@ h6 {
 header.masthead {
 	position: relative;
 	background-color: #343a40;
-	background: url("http://placehold.it/1920x1080") no-repeat center center;
+	background: url("../../assets/img/background_720.svg") no-repeat center center;
 	background-size: cover;
 	padding-top: 8rem;
 	padding-bottom: 8rem;
@@ -325,7 +325,7 @@ header.masthead h1 {
 .call-to-action {
 	position: relative;
 	background-color: #343a40;
-	background: url("http://placehold.it/1920x1080") no-repeat center center;
+	background: url("../../assets/img/background_720.svg") no-repeat center center;
 	background-size: cover;
 	padding-top: 7rem;
 	padding-bottom: 7rem;

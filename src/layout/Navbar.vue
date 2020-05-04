@@ -9,7 +9,7 @@
 			<b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 			<b-collapse id="nav-collapse" is-nav>
 				<!-- <b-navbar-nav class="ml-auto">
-          
+
         </b-navbar-nav> -->
 
 				<b-navbar-nav class="ml-auto">
@@ -48,18 +48,18 @@
 
 <script>
 export default {
-	data() {
-		return {};
+	data () {
+		return {}
 	},
 	methods: {
-		getName() {
-			return this.$route.name == "Estabelecimento"
+		getName () {
+			return this.$route.name == 'Estabelecimento'
 				? `/ ${this.$route.params.name}`
-				: "";
+				: ''
 		}
 	},
 	computed: {}
-};
+}
 </script>
 
 <style scoped>
