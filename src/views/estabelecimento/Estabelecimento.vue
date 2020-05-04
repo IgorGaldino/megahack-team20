@@ -93,27 +93,27 @@
 </template>
 
 <script>
-import obj from "../../shared/object";
+import obj from '../../shared/object'
 export default {
-	data() {
+	data () {
 		return {
 			store: {}
-		};
+		}
 	},
-	created() {
+	created () {
 		switch (this.$route.params.name) {
-			case "pizzaria-2-irmaos":
-				this.store = obj[0];
-				break;
-			case "mercadinho-mix":
-				this.store = obj[1];
-				break;
-			case "padaria-ferragens":
-				this.store = obj[2];
-				break;
+		case 'pizzaria-2-irmaos':
+			this.store = obj[0]
+			break
+		case 'mercadinho-mix':
+			this.store = obj[1]
+			break
+		case 'padaria-ferragens':
+			this.store = obj[2]
+			break
 		}
 	}
-};
+}
 </script>
 
 <style></style>

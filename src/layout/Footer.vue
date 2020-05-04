@@ -21,7 +21,7 @@
               <a href="#equipe">Equipe</a>
             </li>
           </ul>
-          <p class="text-muted small mb-4 mb-lg-0">&copy; Fica Fácil 2020. Time 20.</p>
+          <p class="text-muted small mb-4 mb-lg-0">&copy; FikaFácil 2020. Time 20.</p>
         </div>
         <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
           <ul class="list-inline mb-0">

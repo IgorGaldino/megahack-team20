@@ -1,47 +1,47 @@
-import Layout from "../layout/Layout.vue";
+import Layout from '../layout/Layout.vue'
 
 const routes = [
 	{
-		path: "/",
+		path: '/',
 		component: Layout,
-		redirect: "/home",
+		redirect: '/home',
 		children: [
 			{
-				path: "home",
-				name: "Home",
-				component: () => import("../views/Home.vue")
+				path: 'home',
+				name: 'Home',
+				component: () => import('../views/Home.vue')
 			},
 			{
-				path: "novo-cliente",
-				name: "Cadastro",
-				component: () => import("../views/cliente/Cadastro.vue")
+				path: 'novo-cliente',
+				name: 'Cadastro',
+				component: () => import('../views/cliente/Cadastro.vue')
 			},
 			{
-				path: "novo-estabelecimento",
-				name: "Cadastro",
-				component: () => import("../views/estabelecimento/Cadastro.vue")
+				path: 'novo-estabelecimento',
+				name: 'Cadastro',
+				component: () => import('../views/estabelecimento/Cadastro.vue')
 			},
 			{
-				path: "fikafacil/:name",
-				name: "Estabelecimento",
-				component: () => import("../views/estabelecimento/Estabelecimento.vue")
+				path: 'fikafacil/:name',
+				name: 'Estabelecimento',
+				component: () => import('../views/estabelecimento/Estabelecimento.vue')
 			},
 			{
-				path: "checarPedido",
-				name: "ChecarPedido",
-				component: () => import("../views/estabelecimento/Checkout.vue")
+				path: 'checarPedido',
+				name: 'ChecarPedido',
+				component: () => import('../views/estabelecimento/Checkout.vue')
 			},
 			{
-				path: "novo-produto",
-				name: "Cadastro de Produto",
-				component: () => import("../views/produto/Cadastro.vue")
+				path: 'novo-produto',
+				name: 'Cadastro de Produto',
+				component: () => import('../views/produto/Cadastro.vue')
 			}
 		]
 	},
 	{
-		path: "*",
-		redirect: "/"
+		path: '*',
+		redirect: '/'
 	}
-];
+]
 
-export default routes;
+export default routes
