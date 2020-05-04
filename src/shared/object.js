@@ -141,7 +141,8 @@ export default [
 		produtos: [
 			{
 				nome: 'Pão bengala',
-				img: 'https://img.comunidades.net/pan/panificadora/bengala.jpg',
+				// img: 'https://img.comunidades.net/pan/panificadora/bengala.jpg/',
+				img: 'https://lh3.googleusercontent.com/proxy/ewFVefHN_1uwEE9LqdnOJBrQ518PP5aYu0G7Yb075lDIb_I4FvX5lfVlIJFAmM8wGLf5GG6M5kFGrH1j5nCa6Nz6Ff5hrNEUATyt',
 				preco: 'R$1,99 Und',
 				isAdd: false
 			},

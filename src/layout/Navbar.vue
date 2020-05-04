@@ -35,9 +35,7 @@
 							/>
 						</template>
 						<b-dropdown-item href="#">Configurar Perfil</b-dropdown-item>
-						<b-dropdown-item @click="$router.push('/estabelecimento')"
-							>Minha Loja</b-dropdown-item
-						>
+						<b-dropdown-item v-if="this.$route.name !== 'Estabelecimento'" @click="route()">Minha Loja</b-dropdown-item>
 						<b-dropdown-item @click="$router.push('/')">Sair</b-dropdown-item>
 					</b-nav-item-dropdown>
 				</b-navbar-nav>
@@ -56,6 +54,20 @@ export default {
 			return this.$route.name == 'Estabelecimento'
 				? `/ ${this.$route.params.name}`
 				: ''
+		},
+		route () {
+			const aux = Math.floor(Math.random() * (3 - 0)) + 0
+			switch (aux) {
+			case 0:
+				this.$router.push('/fikafacil/pizzaria-2-irmaos')
+				break
+			case 1:
+				this.$router.push('/fikafacil/mercadinho-mix')
+				break
+			case 2:
+				this.$router.push('/fikafacil/padaria-ferragens')
+				break
+			}
 		}
 	},
 	computed: {}
