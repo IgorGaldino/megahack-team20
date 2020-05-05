@@ -210,7 +210,7 @@
                 <b-form-input id="input-11" v-model="estabelecimento.instagram" />
               </b-form-group>
               <div class="d-flex justify-content-end">
-                <b-button variant="primary">Salvar</b-button>
+                <b-button variant="primary" @click="save">Salvar</b-button>
               </div>
             </b-card>
           </div>
@@ -229,8 +229,22 @@ export default {
 	data () {
 		return {
 			estabelecimento: {
-				endereco: {},
-				telefones: []
+				nome: 'Pizzaria 2 Irmãos',
+				tipo: 'ALIMENTACAO',
+				delivery: true,
+				retirada: false,
+				metodoPagamento: ['C_DEBITO', 'C_CREDITO'],
+				endereco: {
+					cep: '60521045',
+					rua: 'Rua Joaquim Manuel de Macêdo',
+					numero: 186,
+					estado: 'Ceará',
+					cidade: 'Fortaleza'
+				},
+				telefones: [
+					{ numero: '(85) 2860-1237', is_whatsapp: false },
+					{ numero: '(85) 98940-5380', is_whatsapp: false }
+				]
 			},
 			store: {},
 			form: {
@@ -292,6 +306,9 @@ export default {
 		adicionarTelefone () {
 			if (this.estabelecimento.telefones.length <= 2)
 				this.estabelecimento.telefones.push({ numero: '', is_whatsapp: false })
+		},
+		save () {
+			console.log(this.estabelecimento)
 		}
 	}
 }
